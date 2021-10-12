@@ -1,0 +1,14 @@
+*.xcuserstate
+*.xcbkptlist
+*.xcscheme
+.DS_Store
+*.pbxuser
+xcuserdata
+Pods
+Gemfile.lock
+*.xccheckout
+*.gcno
+*.gcda
+*.xcscmblueprint
+test_output
+/.idea
