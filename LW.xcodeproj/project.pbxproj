@@ -7,12 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09AF8CAC2715A34C00DF2DF5 /* GARequestLoggingReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF8BFF2715A34C00DF2DF5 /* GARequestLoggingReport.swift */; };
+		09AF8CAD2715A34C00DF2DF5 /* GARequestPayloadFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF8C002715A34C00DF2DF5 /* GARequestPayloadFactory.swift */; };
+		09AF8CAE2715A34C00DF2DF5 /* GARequestLoggingServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF8C012715A34C00DF2DF5 /* GARequestLoggingServer.swift */; };
+		09AF8CAF2715A34C00DF2DF5 /* GARequestPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF8C022715A34C00DF2DF5 /* GARequestPayload.swift */; };
+		09AF8CB02715A34C00DF2DF5 /* LocalhostServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF8C042715A34C00DF2DF5 /* LocalhostServerResponse.swift */; };
+		09AF8CB12715A34C00DF2DF5 /* LocalhostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF8C052715A34C00DF2DF5 /* LocalhostRouter.swift */; };
+		09AF8CB22715A34C00DF2DF5 /* LocalhostPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF8C062715A34C00DF2DF5 /* LocalhostPort.swift */; };
+		09AF8CB32715A34C00DF2DF5 /* LocalhostServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF8C072715A34C00DF2DF5 /* LocalhostServer.swift */; };
 		09BB2B7427159BBE00914A47 /* LW.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BB2B7327159BBE00914A47 /* LW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09BB2B8827159C5700914A47 /* TestLW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BB2B7A27159C5700914A47 /* TestLW.swift */; };
+		09BB2B9127159C5700914A47 /* RSLocalHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BB2B8727159C5700914A47 /* RSLocalHost.swift */; };
+		09EAAE762715B6A6003A2B05 /* Criollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AF8D572715A43E00DF2DF5 /* Criollo.framework */; platformFilter = ios; };
+		09EAAE772715B6A6003A2B05 /* Criollo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09AF8D572715A43E00DF2DF5 /* Criollo.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		09AF8D562715A43E00DF2DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09AF8D512715A43E00DF2DF5 /* Criollo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AD5FFFCC1BF0024D00A57FE9;
+			remoteInfo = "Criollo iOS";
+		};
+		09EAAE8A2715BDA6003A2B05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09AF8D512715A43E00DF2DF5 /* Criollo.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5FFFCB1BF0024D00A57FE9;
+			remoteInfo = "Criollo iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09EAAE782715B6A7003A2B05 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				09EAAE772715B6A6003A2B05 /* Criollo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		09AF8BFF2715A34C00DF2DF5 /* GARequestLoggingReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GARequestLoggingReport.swift; sourceTree = "<group>"; };
+		09AF8C002715A34C00DF2DF5 /* GARequestPayloadFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GARequestPayloadFactory.swift; sourceTree = "<group>"; };
+		09AF8C012715A34C00DF2DF5 /* GARequestLoggingServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GARequestLoggingServer.swift; sourceTree = "<group>"; };
+		09AF8C022715A34C00DF2DF5 /* GARequestPayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GARequestPayload.swift; sourceTree = "<group>"; };
+		09AF8C042715A34C00DF2DF5 /* LocalhostServerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalhostServerResponse.swift; sourceTree = "<group>"; };
+		09AF8C052715A34C00DF2DF5 /* LocalhostRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalhostRouter.swift; sourceTree = "<group>"; };
+		09AF8C062715A34C00DF2DF5 /* LocalhostPort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalhostPort.swift; sourceTree = "<group>"; };
+		09AF8C072715A34C00DF2DF5 /* LocalhostServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalhostServer.swift; sourceTree = "<group>"; };
+		09AF8D512715A43E00DF2DF5 /* Criollo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Criollo.xcodeproj; path = Source/Criollo/Criollo.xcodeproj; sourceTree = "<group>"; };
 		09BB2B7027159BBE00914A47 /* LW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BB2B7327159BBE00914A47 /* LW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LW.h; sourceTree = "<group>"; };
+		09BB2B7A27159C5700914A47 /* TestLW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestLW.swift; path = Source/TestLW.swift; sourceTree = "<group>"; };
+		09BB2B8727159C5700914A47 /* RSLocalHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSLocalHost.swift; path = Source/RSLocalHost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -20,17 +74,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EAAE762715B6A6003A2B05 /* Criollo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09AF8BFC2715A34C00DF2DF5 /* SwiftLocalhost */ = {
+			isa = PBXGroup;
+			children = (
+				09AF8BFD2715A34C00DF2DF5 /* Source */,
+			);
+			name = SwiftLocalhost;
+			path = Source/SwiftLocalhost;
+			sourceTree = "<group>";
+		};
+		09AF8BFD2715A34C00DF2DF5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				09AF8BFE2715A34C00DF2DF5 /* GARequest */,
+				09AF8C032715A34C00DF2DF5 /* Localhost */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		09AF8BFE2715A34C00DF2DF5 /* GARequest */ = {
+			isa = PBXGroup;
+			children = (
+				09AF8BFF2715A34C00DF2DF5 /* GARequestLoggingReport.swift */,
+				09AF8C002715A34C00DF2DF5 /* GARequestPayloadFactory.swift */,
+				09AF8C012715A34C00DF2DF5 /* GARequestLoggingServer.swift */,
+				09AF8C022715A34C00DF2DF5 /* GARequestPayload.swift */,
+			);
+			path = GARequest;
+			sourceTree = "<group>";
+		};
+		09AF8C032715A34C00DF2DF5 /* Localhost */ = {
+			isa = PBXGroup;
+			children = (
+				09AF8C042715A34C00DF2DF5 /* LocalhostServerResponse.swift */,
+				09AF8C052715A34C00DF2DF5 /* LocalhostRouter.swift */,
+				09AF8C062715A34C00DF2DF5 /* LocalhostPort.swift */,
+				09AF8C072715A34C00DF2DF5 /* LocalhostServer.swift */,
+			);
+			path = Localhost;
+			sourceTree = "<group>";
+		};
+		09AF8D522715A43E00DF2DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09AF8D572715A43E00DF2DF5 /* Criollo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		09BB2B6627159BBE00914A47 = {
 			isa = PBXGroup;
 			children = (
 				09BB2B7227159BBE00914A47 /* LW */,
 				09BB2B7127159BBE00914A47 /* Products */,
+				09BB2B9927159C8400914A47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,9 +149,20 @@
 		09BB2B7227159BBE00914A47 /* LW */ = {
 			isa = PBXGroup;
 			children = (
+				09AF8D512715A43E00DF2DF5 /* Criollo.xcodeproj */,
+				09AF8BFC2715A34C00DF2DF5 /* SwiftLocalhost */,
+				09BB2B8727159C5700914A47 /* RSLocalHost.swift */,
+				09BB2B7A27159C5700914A47 /* TestLW.swift */,
 				09BB2B7327159BBE00914A47 /* LW.h */,
 			);
 			path = LW;
+			sourceTree = "<group>";
+		};
+		09BB2B9927159C8400914A47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,10 +187,12 @@
 				09BB2B6C27159BBE00914A47 /* Sources */,
 				09BB2B6D27159BBE00914A47 /* Frameworks */,
 				09BB2B6E27159BBE00914A47 /* Resources */,
+				09EAAE782715B6A7003A2B05 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				09EAAE8B2715BDA6003A2B05 /* PBXTargetDependency */,
 			);
 			name = LW;
 			productName = LW;
@@ -93,6 +210,7 @@
 				TargetAttributes = {
 					09BB2B6F27159BBE00914A47 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -107,12 +225,28 @@
 			mainGroup = 09BB2B6627159BBE00914A47;
 			productRefGroup = 09BB2B7127159BBE00914A47 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 09AF8D522715A43E00DF2DF5 /* Products */;
+					ProjectRef = 09AF8D512715A43E00DF2DF5 /* Criollo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				09BB2B6F27159BBE00914A47 /* LW */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		09AF8D572715A43E00DF2DF5 /* Criollo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Criollo.framework;
+			remoteRef = 09AF8D562715A43E00DF2DF5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		09BB2B6E27159BBE00914A47 /* Resources */ = {
@@ -129,10 +263,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AF8CAC2715A34C00DF2DF5 /* GARequestLoggingReport.swift in Sources */,
+				09AF8CB02715A34C00DF2DF5 /* LocalhostServerResponse.swift in Sources */,
+				09AF8CB12715A34C00DF2DF5 /* LocalhostRouter.swift in Sources */,
+				09AF8CAE2715A34C00DF2DF5 /* GARequestLoggingServer.swift in Sources */,
+				09AF8CB32715A34C00DF2DF5 /* LocalhostServer.swift in Sources */,
+				09BB2B9127159C5700914A47 /* RSLocalHost.swift in Sources */,
+				09AF8CB22715A34C00DF2DF5 /* LocalhostPort.swift in Sources */,
+				09BB2B8827159C5700914A47 /* TestLW.swift in Sources */,
+				09AF8CAF2715A34C00DF2DF5 /* GARequestPayload.swift in Sources */,
+				09AF8CAD2715A34C00DF2DF5 /* GARequestPayloadFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09EAAE8B2715BDA6003A2B05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Criollo iOS";
+			targetProxy = 09EAAE8A2715BDA6003A2B05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		09BB2B7527159BBE00914A47 /* Debug */ = {
@@ -187,13 +339,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = LW;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -245,12 +400,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = LW;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -260,6 +418,7 @@
 		09BB2B7827159BBE00914A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -280,7 +439,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -288,6 +448,7 @@
 		09BB2B7927159BBE00914A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -308,7 +469,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

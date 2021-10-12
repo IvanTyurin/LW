@@ -1,0 +1,11 @@
+framework module LW {
+  umbrella header "LW.h"
+
+  export *
+  module * { export * }
+}
+
+module LW.Swift {
+    header "LW-Swift.h"
+    requires objc
+}
