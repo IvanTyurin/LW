@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.swift_version= '4.2'
   spec.platform     = :ios, "12.0"
 
-  spec.source       = { :git => "https://github.com/IvanTyurin/LW.git", :tag => "#{spec.version}", :submodules => true }
+  spec.source       = { :git => "https://github.com/IvanTyurin/LW.git", :tag => spec.version.to_s, :submodules => true }
 
   spec.source_files = 'LW/LW.h'
   spec.vendored_frameworks  = 'LW.framework'
