@@ -4,33 +4,37 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		et3rmnLysI4stylXFTkA9vFU/38=
+		</data>
 		<key>Frameworks/Criollo.framework/Criollo</key>
 		<data>
-		ALEOBRLQ9iEoy8OdH+XL9iu0/RM=
+		s32fYgG8UCprBdfiCy0cEaFx68U=
 		</data>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<data>
-		nUo3x/lKfue+Z9b8qB8a1LfrYvY=
+		MFhdVi4xEbyBl0NtpLT2R039IY8=
 		</data>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
 		<data>
-		iVRteXqVfORb3SdfveVCyEjYX6I=
+		QF3xQs+kRIcesbNG3yI6M2dbFc8=
 		</data>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
 		<data>
-		WxhWON5sCzJUVsN1iMMrRkTMMiU=
+		Z4NrfnNwtc5/hjF4qefJYB5a0VA=
 		</data>
 		<key>Frameworks/Criollo.framework/Info.plist</key>
 		<data>
-		7sbkNkWUpndCdaeYKLJ5BA+BzO4=
+		Jqm+NAGdcHYNBzFXs8ORI0X1mbM=
 		</data>
 		<key>Frameworks/Criollo.framework/_CodeSignature/CodeResources</key>
 		<data>
-		j4oIre9dPW2lo+Y7cXkw77VqzxI=
+		7drsNgWEfzam+eaORlm0cET5ZdI=
 		</data>
 		<key>Headers/LW-Swift.h</key>
 		<data>
-		uHBhiWqjoMTgTBvO8GyLuJ+jBU8=
+		ao0WssRaVIoI9+gbPvK2Dzp0C+4=
 		</data>
 		<key>Headers/LW.h</key>
 		<data>
@@ -38,31 +42,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CRmMFfjHf+nV/Ju7qObKdx7lPic=
+		E3jxpiErgYGJbHHuv8/thIQId9A=
+		</data>
+		<key>Modules/LW.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		JeztHvB9TYdiQ/SIubIr/ZpFNV8=
+		</data>
+		<key>Modules/LW.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<data>
+		JeztHvB9TYdiQ/SIubIr/ZpFNV8=
 		</data>
 		<key>Modules/LW.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		uFrnEW2AtpGH4egGAs2qJ8JJW5M=
+		ZM414/CbgDLv6AWHxWMqvYTOsEA=
 		</data>
 		<key>Modules/LW.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		uFrnEW2AtpGH4egGAs2qJ8JJW5M=
+		ZM414/CbgDLv6AWHxWMqvYTOsEA=
+		</data>
+		<key>Modules/LW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		iP9p14utiryzg9THEiFwNi8yivw=
+		</data>
+		<key>Modules/LW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		y8sVXKvR7NiDY7mK3XUzyiNx478=
+		</data>
+		<key>Modules/LW.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		iP9p14utiryzg9THEiFwNi8yivw=
+		</data>
+		<key>Modules/LW.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		y8sVXKvR7NiDY7mK3XUzyiNx478=
 		</data>
 		<key>Modules/LW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MXhS3rV70mCbz1+0hVnE+eWzyhE=
+		T/iOf6kigOK4S2QHmBiNRP6ugdA=
 		</data>
 		<key>Modules/LW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		knCagAW2bwWEPkesBSmADoA9BsQ=
+		hU4PjEpJXBvDufaaT3FYA+30WCQ=
 		</data>
 		<key>Modules/LW.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		MXhS3rV70mCbz1+0hVnE+eWzyhE=
+		T/iOf6kigOK4S2QHmBiNRP6ugdA=
 		</data>
 		<key>Modules/LW.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		knCagAW2bwWEPkesBSmADoA9BsQ=
+		hU4PjEpJXBvDufaaT3FYA+30WCQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,49 +103,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			laNkuBwTDIs0/aiSJZztvNBD3ZdRpvuc114nhq+rzlE=
+			A4ht2k/fpFlXg/eXGVd9eTFkQBHNx3f8t8iTLt+mlYc=
 			</data>
 		</dict>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cxrtu+3rOAp8CB66LMVL1qfpyDK/xI4UO2lz3eall6k=
+			bVsZcuYv72S7psftvZuUGvYd956gqOK/Vq5zpqO40MU=
 			</data>
 		</dict>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JuTvSI1079I7h1PyMGhjsPxEENxUMCFCuj7dYpoR/5s=
+			OKtxsXfQgXu3e4pK1upljQNMqj/AT9De9SQw3/UKroc=
 			</data>
 		</dict>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w6H6DEwPaWE4a5zbg+LYWCkLYxzzD6zsNrB6YMwN6O0=
+			pZd75eXftP3yi4rccgwhtyGsUqkP2NfTF91rfguISqU=
 			</data>
 		</dict>
 		<key>Frameworks/Criollo.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kciPF677XVb7xVlaVNh/IC7bTCJDe+XznfEX4YUYZZk=
+			XcnR1jpDVfJLoyvWuvJvU3oUInmAvuMk7n1lpFfv4iY=
 			</data>
 		</dict>
 		<key>Frameworks/Criollo.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sSHA1UVtuDTlGd9Z8Nme+FJGi3HC7isyNqdvqAqSMbI=
+			0cRZSormVSrkxCSAUvY5ZH/FmHMVbGwh/uiTuSxI0cU=
 			</data>
 		</dict>
 		<key>Headers/LW-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			72eUDAisU3PLSGpEsheRX7Vh2tqpw32mn8YLlmxjvog=
+			7QNWnqoYcx5F1omsOxiUSnY7fi7OgD7u4gNOhQHhF4I=
 			</data>
 		</dict>
 		<key>Headers/LW.h</key>
@@ -127,46 +155,88 @@
 			DFyH4bCkl+xpoJ1NW6/DnksKjH8fIykswSMsMLMA/5A=
 			</data>
 		</dict>
+		<key>Modules/LW.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OZuVrpw28MecRTu2m5JKrZ3YvP70o1cMSLi2siXELhY=
+			</data>
+		</dict>
+		<key>Modules/LW.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OZuVrpw28MecRTu2m5JKrZ3YvP70o1cMSLi2siXELhY=
+			</data>
+		</dict>
 		<key>Modules/LW.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ejTIre0q6J2xSZejeW3uz9wBygEeoHH1saRbdrgkvk=
+			aac3Vblwt99FAOkJasuuWYpoYgUcozKGbIiiGtbvyN0=
 			</data>
 		</dict>
 		<key>Modules/LW.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ejTIre0q6J2xSZejeW3uz9wBygEeoHH1saRbdrgkvk=
+			aac3Vblwt99FAOkJasuuWYpoYgUcozKGbIiiGtbvyN0=
+			</data>
+		</dict>
+		<key>Modules/LW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PrC2pw1u5R8PQgzxU5DThxRzqOLxq442rgspPsXipBY=
+			</data>
+		</dict>
+		<key>Modules/LW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jRfjcyo0IGItSXP0KD+pwQ2amJRVx00dC6ft8EgNrp4=
+			</data>
+		</dict>
+		<key>Modules/LW.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PrC2pw1u5R8PQgzxU5DThxRzqOLxq442rgspPsXipBY=
+			</data>
+		</dict>
+		<key>Modules/LW.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jRfjcyo0IGItSXP0KD+pwQ2amJRVx00dC6ft8EgNrp4=
 			</data>
 		</dict>
 		<key>Modules/LW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e4+CybAAwA2ExlbgF0u8sZXDZi0z/ddX2jehWgp8mrU=
+			//fsa45HwVxtHcFv55Q/Rz+ooIY4MHpqGztpNiDdJ04=
 			</data>
 		</dict>
 		<key>Modules/LW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YkX2Hl4lTWJkbyGO1cc1d3gF6bKTmQjw8sE4eU0vL24=
+			FOrNp6hZrrBCw8yyG48eXK9eagAATQWSe8c+DR5xjew=
 			</data>
 		</dict>
 		<key>Modules/LW.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e4+CybAAwA2ExlbgF0u8sZXDZi0z/ddX2jehWgp8mrU=
+			//fsa45HwVxtHcFv55Q/Rz+ooIY4MHpqGztpNiDdJ04=
 			</data>
 		</dict>
 		<key>Modules/LW.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YkX2Hl4lTWJkbyGO1cc1d3gF6bKTmQjw8sE4eU0vL24=
+			FOrNp6hZrrBCw8yyG48eXK9eagAATQWSe8c+DR5xjew=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

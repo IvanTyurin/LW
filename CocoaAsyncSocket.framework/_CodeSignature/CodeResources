@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		OeTrf7M6EduZ/ahsELjp/o/Yrqw=
+		</data>
 		<key>Headers/CocoaAsyncSocket.h</key>
 		<data>
 		19xueMkhcDCf6A2ihyiTCDjWjd4=
@@ -18,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iVRteXqVfORb3SdfveVCyEjYX6I=
+		QF3xQs+kRIcesbNG3yI6M2dbFc8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
