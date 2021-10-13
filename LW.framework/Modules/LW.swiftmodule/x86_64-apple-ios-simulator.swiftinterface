@@ -1,0 +1,103 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 effective-4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -module-name LW
+import Criollo
+import Foundation
+@_exported import LW
+import Swift
+public struct GARequestLoggingReport {
+  public let payloads: [LW.GARequestPayload]
+  public init(payloads: [LW.GARequestPayload])
+}
+extension GARequestLoggingReport : Swift.Equatable {
+  public static func == (lhs: LW.GARequestLoggingReport, rhs: LW.GARequestLoggingReport) -> Swift.Bool
+}
+public struct LocalhostServerResponse {
+  public let httpUrlResponse: Foundation.HTTPURLResponse
+  public let data: Any?
+  public init(httpUrlResponse: Foundation.HTTPURLResponse, data: Any? = nil)
+}
+public protocol LocalhostRouter {
+  init(portNumber: Swift.UInt)
+  func get(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  func post(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  func delete(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  func put(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  func patch(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  func head(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  func options(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  func startListening()
+  func stopListening()
+}
+public class GARequestLoggingServer {
+  final public let localhostServer: LW.LocalhostServer
+  public var portNumber: Swift.UInt {
+    get
+  }
+  public init(portNumber: Swift.UInt)
+  public static func initializeUsingRandomPortNumber() -> LW.GARequestLoggingServer
+  public func startListening()
+  public func stopListening()
+  public func eventsReport() -> LW.GARequestLoggingReport
+  @objc deinit
+}
+extension LocalhostServer : LW.LocalhostRouter {
+  public func get(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  public func post(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  public func delete(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  public func put(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  public func patch(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  public func head(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  public func options(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LW.LocalhostServerResponse?))
+  public func startListening()
+  public func stopListening()
+}
+public class LocalhostServer {
+  final public let portNumber: Swift.UInt
+  public var recordedRequests: [Foundation.URLRequest]
+  required public init(portNumber: Swift.UInt)
+  public static func initializeUsingRandomPortNumber() -> LW.LocalhostServer
+  public func route(method: LW.LocalhostRequestMethod, path: Swift.String, responseData: Foundation.Data, statusCode: Swift.Int = 200, responseHeaderFields: [Swift.String : Swift.String]? = nil)
+  @objc deinit
+}
+public enum LocalhostRequestMethod {
+  case GET
+  case POST
+  case PUT
+  case PATCH
+  case DELETE
+  case HEAD
+  case OPTIONS
+  public static func == (a: LW.LocalhostRequestMethod, b: LW.LocalhostRequestMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct LocalhostRequest {
+  public init(method: LW.LocalhostRequestMethod, url: Foundation.URL)
+}
+public class RSLocalHost {
+  final public let server: LW.LocalhostServer
+  required public init(portNumber: Swift.UInt)
+  public func startListening()
+  public func stopListening()
+  public func route(method: LW.LocalhostRequestMethod, path: Swift.String, responseData: Foundation.Data, statusCode: Swift.Int = 200, responseHeaderFields: [Swift.String : Swift.String]? = nil)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LocalhostPort {
+  public static func availablePortNumber() -> Swift.UInt16
+  @objc deinit
+}
+public class TestLW {
+  public init()
+  public func printHello()
+  @objc deinit
+}
+public enum GARequestPayload {
+  case event(zIdentifier: Swift.UInt64?, category: Swift.String, action: Swift.String, label: Swift.String)
+  case screenView(zIdentifier: Swift.UInt64?, screenName: Swift.String)
+}
+extension GARequestPayload : Swift.Equatable {
+  public static func == (lhs: LW.GARequestPayload, rhs: LW.GARequestPayload) -> Swift.Bool
+}

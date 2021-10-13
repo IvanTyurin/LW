@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		Mjore/U7BXwY6EpdX9mYA/VuwMY=
-		</data>
 		<key>Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<data>
-		MFhdVi4xEbyBl0NtpLT2R039IY8=
+		YjU4xIVawnBYLN5iy8PggvFKZhQ=
 		</data>
 		<key>Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
 		<data>
@@ -115,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bVsZcuYv72S7psftvZuUGvYd956gqOK/Vq5zpqO40MU=
+			bw65YRbC4u1URZIiB6EV5tps1YnMBjjBTa9Tn43fLz4=
 			</data>
 		</dict>
 		<key>Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
